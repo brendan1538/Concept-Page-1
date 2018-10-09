@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="utf-8">
+          <title>Town Coffee House</title>
+
+          <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+          <link rel="stylesheet" href="navbar.css">
+          <link rel="stylesheet" href="index.css">
+          <link rel="stylesheet" href="responsive_layout.css">
+
+          <script src="jquery-3.3.1.min.js"></script>
+          <script src="index.js"></script>
+
+          <style>
+               * {
+                    box-sizing: border-box;
+                    font-family: 'Raleway', sans-serif;
+               }
+
+               html {
+                    margin: 0;
+                    width: 100%;
+                    background-color: transparent;
+               }
+               body {
+                    margin: 0;
+                    width: 100%;
+                    background-color: transparent;
+               }
+
+               p {
+                    color: black;
+                    padding-left: 6%;
+                    padding-right: 6%
+               }
+
+               h2 {
+                    color: black;
+                    font-weight: bold;
+                    padding-left: 6%;
+                    padding-right: 6%
+               }
+          </style>
+
+     </head>
+     <body>
+          <div id="container" onscroll="navExpand()">
+               <div id="title">
+                    <h1 class="pgTitle" style="font-size:46pt; color:white;">Town Coffee House</h1>
+                    <h2 style="font-size:20pt;color:white;position:absolute;float:left;padding:0;">Locally sourced roasts from Massachusetts</h2>
+               </div>
+          </div>
+
+          <!--Navbar components -->
+          <ul id="navbar">
+               <li class="navLeft"><a class="navText" href="#">HOME</a></li>
+               <li class="navLeft"><a class="navText" href="">COFFEE</a></li>
+               <li class="navLeft"><a class="navText" href="">COMMUNITY</a></li>
+               <li class="navRight"><a class="navText" href="">EMPLOYMENT</a></li>
+          </ul>
+
+          <!--Welcome section -->
+          <div class="wrapper">
+               <div class="welcome-bg">
+                    <div class="description">
+                         <h3>Wednesday, October 3</h3>
+                         <p><br>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis id nostrum labore optio eum, assumenda laudantium omnis, et ad ut tenetur voluptatum, dolor eligendi dicta explicabo, earum. Voluptatem, nobis, magni?
+                         <br><br>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui placeat aliquid, odit maiores vel quasi consequatur quis quae culpa omnis.
+                         </p>
+                    </div>
+
+                    <img src="Images\coffee.png" class="brew_img">
+               </div>
+
+
+               <div class="tryus-parallax"></div>
+               <!--Hours / Location -->
+               <div class="tryus-div" style="width: 100%;">
+
+                    <h1>Come try us!</h2>
+                    <p class="loc_hours">
+                         We're located at Dark Roast Plaza<br>555 Beantown Ave, Boston, MA
+                         <br><br>
+                         Monday-Friday: 6:30 AM - 5:00 PM
+                         <br>
+                         Saturday: 7:00 AM - 5:00 PM
+                         <br>
+                         Sunday: 7:30 AM - 5:00 PM*
+                         <br>
+                         *We're open until 6:00 some Sundays.
+                    </p>
+               </div>
+          </div>
+     </body>
+</html>

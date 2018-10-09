@@ -1,0 +1,28 @@
+* {
+     box-sizing: border-box;
+     font-family: 'Raleway', sans-serif;
+}
+
+html {
+     margin: 0;
+     width: 100%;
+     background-color: transparent;
+}
+body {
+     margin: 0;
+     width: 100%;
+     background-color: transparent;
+}
+
+p {
+     color: black;
+     padding-left: 6%;
+     padding-right: 6%
+}
+
+h2 {
+     color: black;
+     font-weight: bold;
+     padding-left: 6%;
+     padding-right: 6%
+}

@@ -1,0 +1,19 @@
+.wrapper{
+     top: 20%;
+     display: grid;
+     grid-auto-rows: minmax(70px, auto);
+}
+
+.welcome-bg {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-items: center;
+     align-items: center;
+
+     grid-auto-rows: minmax(50px, auto);
+}
+
+.tryus-div {
+     padding: 2em;
+     text-align: center;
+}
